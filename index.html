@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد حسین رشیدی | وبسایت شخصی</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #ddd;
+            margin: 20px auto;
+            border: 4px solid white;
+            background-image: url('https://via.placeholder.com/150');
+            background-size: cover;
+            background-position: center;
+        }
+
+        section {
+            padding: 30px 40px;
+            border-bottom: 1px solid #eee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #444;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 15px;
+            padding-right: 20px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.5em;
+            position: absolute;
+            right: 0;
+            top: -5px;
+        }
+
+        .job-item {
+            margin-bottom: 25px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .job-meta {
+            color: #667eea;
+            font-weight: 500;
+            margin: 5px 0 10px 0;
+        }
+
+        .expertise-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tag {
+            background: #667eea;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.9em;
+        }
+
+        .contact-info {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-img"></div>
+            <h1>محمد حسین رشیدی دستجردی</h1>
+            <p>دانشجوی کارشناسی ارشد تکنولوژی آموزشی | مدرس و فعال حوزه فناوری‌های آموزشی</p>
+        </header>
+
+        <section id="about">
+            <h2>درباره من</h2>
+            <p>من محمد حسین رشیدی، دانشجوی کارشناسی ارشد <strong>تکنولوژی آموزشی</strong> در دانشگاه اصفهان هستم. پیش‌تر، مقطع کارشناسی خود را در رشته <strong>آموزش ابتدایی</strong> از دانشگاه فرهنگیان شهید باهنر اصفهان گذرانده‌ام.</p>
+            <p>علاقه‌مندی اصلی من، تلفیق <strong>هوش مصنوعی</strong> با فرآیندهای یاددهی-یادگیری و توانمندسازی معلمان در استفاده از فناوری‌های نوین است. در این راستا، به عنوان مدرس استانی کاروفناوری، مدرس ریاضیات و مدرس مباحث هوش مصنوعی فعالیت دارم و در تلاش هستم تا با تولید محتوا و طراحی تجارب یادگیری خلاقانه، به بهبود نظام آموزشی کمک کنم.</p>
+        </section>
+
+        <section id="education">
+            <h2>تحصیلات</h2>
+            <ul>
+                <li>
+                    <span class="job-title">کارشناسی ارشد تکنولوژی آموزشی</span><br>
+                    دانشگاه اصفهان | <strong>۱۴۰۴ (تاکنون)</strong>
+                </li>
+                <li>
+                    <span class="job-title">کارشناسی آموزش ابتدایی</span><br>
+                    دانشگاه فرهنگیان شهید باهنر اصفهان | <strong>۱۳۹۹ - ۱۴۰۳</strong>
+                </li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>سوابق شغلی و تخصصی</h2>
+
+            <div class="job-item">
+                <div class="job-title">سمت‌های سازمانی و اجرایی</div>
+                <ul>
+                    <li>سرگروه اجتماعات یادگیری ناحیه (۱۴۰۳ - تاکنون)</li>
+                    <li>عضو تیم تولید محتوا کشوری شبکه ملی معلمان (۱۴۰۳ - تاکنون)</li>
+                    <li>عضو کارگروه طراحی نشریه ناحیه ۳ اصفهان (۱۴۰۳ - تاکنون)</li>
+                </ul>
+            </div>
+
+            <div class="job-item">
+                <div class="job-title">داوری و جشنواره‌ها</div>
+                <ul>
+                    <li>داور جشنواره اصلاح روشهای آموزش و تحول در محیطهای یادگیری (۱۴۰۴)</li>
+                    <li>داور پویش استانی ایران هوشمند (۱۴۰۴)</li>
+                </ul>
+            </div>
+
+            <div class="job-item">
+                <div class="job-title">سوابق تدریس</div>
+                <ul>
+                    <li>مدرس استانی کاروفناوری پایه ششم (۱۴۰۳ - تاکنون)</li>
+                    <li>مدرس تخصصی ریاضیات (مقاطع ابتدایی، متوسطه اول و دوم) (۱۴۰۰ - تاکنون)</li>
+                    <li>مدرس مباحث هوش مصنوعی در شاخه‌های مختلف (۱۴۰۳ - تاکنون)</li>
+                    <li>معلم پایه ششم (۱۴۰۲ - تاکنون)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="expertise">
+            <h2>حوزه‌های تخصصی</h2>
+            <div class="expertise-tags">
+                <span class="tag">تکنولوژی آموزشی</span>
+                <span class="tag">هوش مصنوعی در آموزش</span>
+                <span class="tag">ریاضیات</span>
+                <span class="tag">تولید محتوا</span>
+            </div>
+            <p style="margin-top: 20px;"><strong>تکنولوژی آموزشی:</strong> طراحی محیط‌های یادگیری، اجتماعات یادگیری.</p>
+            <p><strong>هوش مصنوعی در آموزش:</strong> کاربردهای هوش مصنوعی مولد برای افزایش خلاقیت.</p>
+            <p><strong>ریاضیات:</strong> تدریس تخصصی ریاضیات در همه مقاطع تحصیلی.</p>
+            <p><strong>تولید محتوا:</strong> تولید محتوای آموزشی برای شبکه ملی معلمان.</p>
+        </section>
+
+        <section id="contact">
+            <h2>تماس با من</h2>
+            <div class="contact-info">
+                <p>🌐 پروفایل سیویلیکا: <a href="https://civilica.com/p/560585/" target="_blank">https://civilica.com/p/560585/</a></p>
+            </div>
+        </section>
+
+        <footer>
+            &copy; ۲۰۲۶ محمد حسین رشیدی. تمامی حقوق محفوظ است.
+        </footer>
+    </div>
+</body>
+</html>
